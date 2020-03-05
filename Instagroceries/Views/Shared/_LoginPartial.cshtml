@@ -1,0 +1,19 @@
+﻿@model LoginViewModel
+@using Microsoft.AspNetCore.Identity
+@using Microsoft.AspNetCore.Identity.EntityFrameworkCore
+@*
+    For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
+*@
+
+@inject SignInManager<IdentityUser> SignInManager
+
+@if (SignInManager.IsSignedIn(User))
+{
+    <li class="nav-item"><a asp-controller="Account" asp-action="Logout" class="nav-link" style="background-color:red">Logout</a></li>
+}
+else
+{
+    <li class="nav-item"><a asp-controller="Account" asp-action="Register" class="nav-link" style="background-color:green">Register</a></li>
+    <li class="nav-item"><a asp-controller="Account" asp-action="Login" class="nav-link" style="background-color:green">Login</a></li>
+}
+

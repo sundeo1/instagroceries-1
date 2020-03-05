@@ -1,0 +1,76 @@
+﻿@model EditRoleViewModel
+
+@{
+    ViewData["Title"] = "ViewUserRole";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2>ViewUserRole</h2>
+<section class="content">
+    <div class="container-fluid">
+        <div class="row">
+            <!-- left column -->
+            <div class="col-md-6">
+                <!-- general form elements -->
+                <div class="card card-primary">
+                    <div class="card-header">
+                        <h3 class="card-title">Users in Role</h3>
+                    </div>
+                    <!-- /.card-header -->
+                    <!-- form start -->
+                    <form asp-controller="Account" asp-action="Role" method="post" role="form">
+                        <div asp-validation-summary="ModelOnly" class="text-warning"></div>
+                        <div class="card-body">
+                            <div class="form-group">
+                                <label>Role</label>
+                                <input asp-for="RoleName" type="text" class="form-control" placeholder="Enter role">
+                                <span asp-validation-for="RoleName" class="text-danger"></span>
+                            </div>
+                        </div>
+                        <!-- /.card-body -->
+
+                        <div class="card-footer">
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </div>
+                    </form>
+                </div>
+                <!-- /.card -->
+            </div>
+            <!-- right column -->
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-title">Roles</h3>
+                    </div>
+                    <!-- /.card-header -->
+                    <div class="card-body p-0">
+                        <table class="table table-striped">
+                            <thead>
+                                <tr>
+                                    <th style="width: 10px">#</th>
+                                    <th>ID</th>
+                                    <th>Name</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var user in ViewData["userNotInRole"] as IList<EditRoleViewModel>)
+                                {
+                                    <tr>
+                                        <td>1.</td>
+                                        <td>@user.Id</td>
+                                        <td>@user.RoleName</td>
+                                    </tr>
+                                }
+
+                            </tbody>
+                        </table>
+                    </div>
+                    <!-- /.card-body -->
+                </div>
+                <!-- /.card -->
+            </div>
+        </div>
+    </div>
+</section>
+
+

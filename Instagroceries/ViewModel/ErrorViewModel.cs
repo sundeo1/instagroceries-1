@@ -1,6 +1,6 @@
 using System;
 
-namespace Instagroceries.Models
+namespace Instagroceries.ViewModel
 {
     public class ErrorViewModel
     {

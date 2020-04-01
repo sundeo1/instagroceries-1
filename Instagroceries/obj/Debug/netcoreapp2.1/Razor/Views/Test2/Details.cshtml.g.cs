@@ -23,13 +23,18 @@ using Instagroceries.Models;
 
 #line default
 #line hidden
-#line 4 "D:\SUNDEO\Documents\SOFTWARE PROJECTS\.NET\MVC\Instagroceries\instagroceries\Instagroceries\Views\_ViewImports.cshtml"
+#line 3 "D:\SUNDEO\Documents\SOFTWARE PROJECTS\.NET\MVC\Instagroceries\instagroceries\Instagroceries\Views\_ViewImports.cshtml"
+using Instagroceries.ViewModel;
+
+#line default
+#line hidden
+#line 5 "D:\SUNDEO\Documents\SOFTWARE PROJECTS\.NET\MVC\Instagroceries\instagroceries\Instagroceries\Views\_ViewImports.cshtml"
 using Microsoft.AspNetCore.Identity;
 
 #line default
 #line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"25433e8b51b82fed64974bdcb34123e03f0eb3d2", @"/Views/Test2/Details.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"f21aaccc31afe80d64348c9905f257d7a6dd1998", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"b4f9e8f1d7abae31f8c902476fefdff653225959", @"/Views/_ViewImports.cshtml")]
     public class Views_Test2_Details : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<Instagroceries.Models.Test2>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("asp-action", "Edit", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -89,7 +94,7 @@ using Microsoft.AspNetCore.Identity;
             WriteLiteral("\r\n        </dd>\r\n    </dl>\r\n</div>\r\n<div>\r\n    ");
             EndContext();
             BeginContext(376, 59, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "856dceafab0e451087231fb031f8a73d", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "da4ab760fdb443c4ac7e4af534f09d15", async() => {
                 BeginContext(427, 4, true);
                 WriteLiteral("Edit");
                 EndContext();
@@ -124,7 +129,7 @@ using Microsoft.AspNetCore.Identity;
             WriteLiteral(" |\r\n    ");
             EndContext();
             BeginContext(443, 38, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e54e02631de64fcca6852aad5cd12fb7", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e28ae5babf574dd7ad37e689a1cec720", async() => {
                 BeginContext(465, 12, true);
                 WriteLiteral("Back to List");
                 EndContext();

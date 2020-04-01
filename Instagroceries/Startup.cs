@@ -12,6 +12,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.AspNetCore.Identity;
+using Instagroceries.Data.Mocks;
+using Instagroceries.Data.Interfaces;
 
 namespace Instagroceries
 {
@@ -34,7 +36,8 @@ namespace Instagroceries
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
 
-
+            services.AddTransient<IProductRepository, MockProductRepository>(); //Adding inteface services
+            services.AddTransient<ICategoryRepository, MockCategoryRepository>(); //Adding inteface services
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
 
             services.AddDbContext<Models.ApplicationDbContext>(options =>

@@ -23,6 +23,11 @@ using Instagroceries.Models;
 
 #line default
 #line hidden
+#line 3 "D:\SUNDEO\Documents\SOFTWARE PROJECTS\.NET\MVC\Instagroceries\instagroceries\Instagroceries\Views\_ViewImports.cshtml"
+using Instagroceries.ViewModel;
+
+#line default
+#line hidden
 #line 2 "D:\SUNDEO\Documents\SOFTWARE PROJECTS\.NET\MVC\Instagroceries\instagroceries\Instagroceries\Views\Shared\_LoginPartial.cshtml"
 using Microsoft.AspNetCore.Identity;
 
@@ -34,7 +39,7 @@ using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 #line default
 #line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"4d7d0ea7875da4b76c574b6d2aaaf711a0782bba", @"/Views/Shared/_LoginPartial.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"f21aaccc31afe80d64348c9905f257d7a6dd1998", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"b4f9e8f1d7abae31f8c902476fefdff653225959", @"/Views/_ViewImports.cshtml")]
     public class Views_Shared__LoginPartial : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<LoginViewModel>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("asp-controller", "Account", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -82,7 +87,7 @@ using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
             WriteLiteral("    <li class=\"nav-item\">");
             EndContext();
             BeginContext(362, 104, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2e1b38c6e54d4511bdd7ff622664f0e4", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9d1495ed8f1b45378410c8fcab3f53df", async() => {
                 BeginContext(456, 6, true);
                 WriteLiteral("Logout");
                 EndContext();
@@ -118,7 +123,7 @@ else
             WriteLiteral("    <li class=\"nav-item\">");
             EndContext();
             BeginContext(510, 110, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "16d060888bdb4a089dcc746d7ca92e9b", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "29418f7a9f00452faecf5b0be7f6ed6e", async() => {
                 BeginContext(608, 8, true);
                 WriteLiteral("Register");
                 EndContext();
@@ -144,7 +149,7 @@ else
             WriteLiteral("</li>\r\n    <li class=\"nav-item\">");
             EndContext();
             BeginContext(652, 104, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "127463174da54f559cfbe5e4b1712b07", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "48de2ae71c0a45199e9e695438eac418", async() => {
                 BeginContext(747, 5, true);
                 WriteLiteral("Login");
                 EndContext();

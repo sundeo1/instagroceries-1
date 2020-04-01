@@ -98,3 +98,4 @@ D:\SUNDEO\Documents\SOFTWARE PROJECTS\.NET\MVC\Instagroceries\instagroceries\Ins
 D:\SUNDEO\Documents\SOFTWARE PROJECTS\.NET\MVC\Instagroceries\instagroceries\Instagroceries\obj\Debug\netcoreapp2.1\Instagroceries.RazorTargetAssemblyInfo.cs
 D:\SUNDEO\Documents\SOFTWARE PROJECTS\.NET\MVC\Instagroceries\instagroceries\Instagroceries\obj\Debug\netcoreapp2.1\Instagroceries.Views.pdb
 D:\SUNDEO\Documents\SOFTWARE PROJECTS\.NET\MVC\Instagroceries\instagroceries\Instagroceries\obj\Debug\netcoreapp2.1\Instagroceries.csproj.CopyComplete
+D:\SUNDEO\Documents\SOFTWARE PROJECTS\.NET\MVC\Instagroceries\instagroceries\Instagroceries\obj\Debug\netcoreapp2.1\Razor\Views\Product\List.cshtml.g.cs

@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Instagroceries.Models;
 using Microsoft.AspNetCore.Authorization;
+using Instagroceries.ViewModel;
 
 namespace Instagroceries.Controllers
 {

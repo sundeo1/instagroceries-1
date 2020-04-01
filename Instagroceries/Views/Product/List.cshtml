@@ -1,0 +1,23 @@
+﻿@using Instagroceries.ViewModel
+@model ProductListViewModel
+
+@{ 
+    Layout = "~/Views/Shared/_LayoutClient.cshtml";
+}
+
+
+<div>
+    <h2>All products are shown here </h2>
+</div>
+
+<h2>@Model.CurrentCategory</h2>
+
+@{
+    foreach (var product in Model.Products)
+    {
+        <div>
+            <h4>Product Name: @product.Name</h4>
+            <p>Price: @product.Price.ToString("Sh.")</p>
+        </div>
+    }
+}
